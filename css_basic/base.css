@@ -6,7 +6,15 @@
 
 
 /* CSS reset rules */
+.works_on_smartphone main {
+    flex-direction: column;
+}
 
+.works_on_smartphone article,
+.works_on_smartphone aside {
+    flex: auto;
+    height: auto;
+}
 html, body {
 	height: 100%;
 	min-height: 100%;
